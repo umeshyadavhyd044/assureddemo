@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2127" started-at="2020-01-08T06:45:55Z" finished-at="2020-01-08T06:45:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2127" started-at="2020-01-08T06:45:55Z" finished-at="2020-01-08T06:45:57Z">
+      <class name="com.rest.assure.GetAndPost">
+        <test-method status="PASS" signature="postserviceop()[pri:0, instance:com.rest.assure.GetAndPost@4c15e7fd]" name="postserviceop" duration-ms="1790" started-at="2020-01-08T12:15:55Z" finished-at="2020-01-08T12:15:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postserviceop -->
+        <test-method status="PASS" signature="testQueryGenderParam()[pri:0, instance:com.rest.assure.GetAndPost@4c15e7fd]" name="testQueryGenderParam" duration-ms="224" started-at="2020-01-08T12:15:57Z" finished-at="2020-01-08T12:15:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQueryGenderParam -->
+      </class> <!-- com.rest.assure.GetAndPost -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
