@@ -25,14 +25,18 @@ public class GetAndPost {
 		
 		//System.out.println("response body is "+res);
 		
-		
+		 
+		    
+		    
 		int statusCode = res.getStatusCode();
 			System.out.println("statusCode is :"+statusCode);
 			System.out.println("StatusLine is :"+res.getStatusLine());
 			System.out.println("time is :"+res.getTime());
 			System.out.println("Response Body is  " + res.asString());
 			System.out.println("Preety----"+res.prettyPeek());
+			System.out.println("ContentType is " +res.contentType());
 			Assert.assertNotNull(statusCode);
+			
 			
 	}
 
